@@ -1,0 +1,59 @@
+@charset "UTF-8"
+@import "../../common/stylus/mixin.styl"
+
+.header
+  padding-top:px2rem(40)
+  padding-bottom:px2rem(40)
+  p
+    width:px2rem(100)
+    height:px2rem(100)
+    border:2px solid #fff
+    border-radius:50%
+    margin-left:px2rem(20)
+    img
+      width:px2rem(92)
+      height:px2rem(92)
+.section
+  padding:0 5%
+  .section-title
+    height:px2rem(100)
+    padding-left:px2rem(40)
+    border-radius:10px
+    background-color:#92CBE8
+    img
+      float:left
+      width:px2rem(80)
+      height:px2rem(80)
+    p
+      float:left
+      height:px2rem(80)
+      line-height: px2rem(100)
+      font-size:px2rem(30)
+      color:#fff
+      max-width:80%
+      no-wrap()
+  .section-content
+      margin-top:px2rem(50)
+    .section-list
+      .section-item
+        float:left
+        width:31%
+        margin-bottom:3.5%
+        border-radius:5px
+        text-align:center
+        padding:px2rem(20) 0
+        background-color:#83BF0F
+        img
+          width:px2rem(110)
+          height:px2rem(110)
+        p
+          font-size:16px
+          margin-top:px2rem(20)
+        &:not(:nth-child(3n))
+          margin-right:3.5%
+.footer
+  img
+    position:fixed
+    bottom:0
+    left:0
+    width:100%
